@@ -1,0 +1,252 @@
+/* General sylistic elements, not device dependent */
+
+.copper {
+    background-color: #be5e0c;
+}
+
+.light-copper {
+    background-color: #E7C4A7; 
+}
+
+.centered {
+    text-align: center;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.left-justify {
+    text-align: left;
+}
+
+.right-justify {
+    text-align: right;
+}
+
+.white-lettering {
+    color: #f2f2f2;
+}
+
+/* Element specific settings, not device dependent */
+
+* { 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+[class*="col-"] {
+    float: left;
+}
+
+.top-navigation a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+div.section-divider {
+    background-color: #be5e0c;
+    font-family: 'Trocchi', serif;
+    font-size: 1.3em;
+    color: #f2f2f2;
+    padding: 20px 20px;
+    text-align: center;
+    line-height: 1.3em;
+}
+
+div.section-divider {
+    background-color: #be5e0c;
+    font-family: 'Trocchi', serif;
+    font-size: 1.3em;
+    color: #f2f2f2;
+    padding: 20px 20px;
+    text-align: center;
+    line-height: 1.3em;
+}
+
+section, .footer {
+    padding: 20px 20px;
+    font-family: "Ubuntu", sans-serif;
+    line-height: 1.5em;
+    font-size: 1em;
+    color: #595959;
+}
+
+.footer-container {
+    background-color: #595959;
+}
+
+.footer {
+    color: #f2f2f2;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.profile-photo {
+    float: right;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+.profile-photo img {
+    width: 225px;
+    height: 150px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.fa-circle { color: #f2f2f2; }
+.fa-houzz, .fa-instagram { color: #595959; }
+
+h1 {
+    font-family: "Raleway", serif;
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+h1.callout {
+    font-size: 20px;
+    letter-spacing: normal;
+}
+
+h1.with-padding {
+    padding-bottom: 20px;
+}
+
+h3 {
+    font-family: "Ubuntu", serif;
+    font-size: 1.1em;
+    letter-spacing: normal;
+    font-weight: bold;
+}
+
+h3.with-padding {
+    padding-top:20px;
+}
+
+p{
+    margin: 10px;
+}
+
+textarea {
+    height: 75px;
+}
+
+form {
+    padding-top: 30px;
+}
+
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 22px;
+}
+
+.contact-form a {
+    color: #595959;
+    font-weight: bold;
+}
+
+.form-error {
+    color: #ff0000;
+}
+
+/* Mobile device specific layout */
+
+.col-m-1 {width: 8.33%;}
+.col-m-2 {width: 16.66%;}
+.col-m-3 {width: 25%;}
+.col-m-4 {width: 33.33%;}
+.col-m-5 {width: 41.66%;}
+.col-m-6 {width: 50%;}
+.col-m-7 {width: 58.33%;}
+.col-m-8 {width: 66.66%;}
+.col-m-9 {width: 75%;}
+.col-m-10 {width: 83.33%;}
+.col-m-11 {width: 91.66%;}
+.col-m-12 {width: 100%;}
+
+.logo {
+    text-align: center;
+    padding: 10px;
+}
+
+.top-navigation {
+    overflow: hidden;
+    background-color: #be5e0c;
+}
+
+.top-navigation .mobile-icon-bar {
+    display: none;
+}
+
+.top-navigation.fixed {
+    top: 0;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+}
+
+.top-navigation a:not(:first-child) {display:none;}
+
+.top-navigation {
+    width: 100%;
+    overflow: auto;
+}
+
+.top-navigation a.mobile-icon-bar {
+    float: left;
+    text-align: center;
+    width: 25%;
+    padding: 12px 0;
+    font-size: 36px;
+    display: block;
+}
+
+.top-navigation.responsive .mobile-icon-bar {
+    display: none;
+}
+
+.top-navigation.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+}
+    
+.top-navigation.responsive .mobile-menu-icon {
+    display: block;
+    text-align: center;
+}
+
+.hero-image {
+    width: 100%;
+    height: 0px;
+    padding-bottom: 70%;
+    
+    background-image: url("../image/mobile/Hero.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
